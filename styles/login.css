@@ -13,12 +13,14 @@
 .login-card__left {
     position: relative;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: linear-gradient(to bottom right, #FF0A6C, #4A3CDB);
-}
-
-.login-card__left>h1 {
-    transform: translate(-50%, 250%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
 }
 
 .login-card__right {
@@ -48,4 +50,20 @@
 
 .login_logo-image {
     width: 50%;
+}
+
+@media only screen and (max-width: 830px) {
+    .login-card {
+        flex-flow: row wrap;
+    }
+
+    .login-card__left {
+        flex: 100%;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    }
+
+    .login-card__right {
+        flex: 100%;
+    }
 }
