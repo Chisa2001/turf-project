@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Syne Mono;
+}
+
+.login-card {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+}
+
+.login-card__left {
+    position: relative;
+    flex: 1;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #FF0A6C, #4A3CDB);
+}
+
+.login-card__left>h1 {
+    transform: translate(-50%, 200%);
+}
+
+.login-card__right {
+    position: relative;
+    flex: 1;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.login-card__right-form {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    -ms-flex-direction: column;
+}
+
+.login-card__right-form-input__label {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #3a3a3a;
+}
+
+.login-card__right-form-input {
+    display: flex;
+    flex-direction: column;
+}
