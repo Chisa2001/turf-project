@@ -18,7 +18,7 @@
 }
 
 .login-card__left>h1 {
-    transform: translate(-50%, 200%);
+    transform: translate(-50%, 250%);
 }
 
 .login-card__right {
@@ -44,4 +44,8 @@
 .login-card__right-form-input {
     display: flex;
     flex-direction: column;
+}
+
+.login_logo-image {
+    width: 50%;
 }

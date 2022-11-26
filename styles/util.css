@@ -19,6 +19,11 @@
     font-size: 1.1em;
 }
 
+.anchor-primary {
+    text-decoration: none;
+    color: #673df3;
+}
+
 .centered {
     position: absolute;
     left: 50%;
@@ -50,6 +55,10 @@
 .flex-center {
     align-self: center;
     justify-self: center;
+}
+
+.checkbox {
+    outline: none;
 }
 
 .submit-btn {
