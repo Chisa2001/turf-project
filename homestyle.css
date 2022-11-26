@@ -1,0 +1,79 @@
+
+.container-fluid
+{
+  padding-bottom:5px;
+
+}
+
+.navspacing
+{
+  padding-left: 50%;
+  font-family: 'Syne Mono', monospace;
+
+
+}
+
+.titlefont
+{
+  font-family: 'Rubik Distressed', cursive;
+  letter-spacing: .15rem;
+}
+
+.middle-container
+{
+  position: relative;
+
+}
+
+.heading
+{
+position: absolute;
+left:  30%;
+top : 2px;
+font-family: 'Syne Mono', monospace;
+font-size: 8rem;
+color: #00000;
+}
+.secheading
+{
+  position: absolute;
+  left:  38%;
+  top : 145px;
+  font-family: 'Syne Mono', monospace;
+  color: #00000;
+}
+.main-img
+{
+  width: 100%;
+  height: 657px;
+}
+
+.mycarousel
+{
+  height:500px;
+}
+
+
+.cimage
+{
+
+  height: 720px;
+}
+
+.text-white
+{
+  text-decoration: none;
+}
+.thirdtext
+{
+  color: white;
+}
+
+#slideshow
+{
+  padding: 2%;
+  background-color: #222222;
+    font-family: 'Syne Mono', monospace;
+    color: #222222;
+    font-size: 1.5rem;
+}
