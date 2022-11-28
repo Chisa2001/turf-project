@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Syne Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/util.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/account.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/animations.css" />
+    <script src="../../scripts/account.js"></script>
+    <title>Play Spots | Account</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <!-- <nav id="navbar" class="navbar">
+                <div class="navbar-left">
+                    <a href="#" class="navbar-item navbar-item-left" id="navbar-item">Dashboard</a>
+                    <a href="#" class="navbar-item navbar-item-left" id="navbar-item">Turf</a>
+                    <a href="#" class="navbar-item navbar-item-left" id="navbar-item">Events</a>
+                    <a href="#" class="navbar-item navbar-item-left" id="navbar-item">Account</a>
+                    <a href="#" class="navbar-item navbar-item-left" id="navbar-item">Feedback</a>
+                </div>
+                <div class="navbar-right">
+                    <div id="navbar-search" class="navbar-search">
+                        <form action="#">
+                            <input type="text" id="navbar-search-input" class="navbar-search-input" name="search"
+                                placeholder="Turfs, Events">
+                            <input type="submit" id="navbar-search-submit" class="navbar-search-submit" value="search">
+                        </form>
+                    </div>
+                    <a href="#" class="navbar-item navbar-item-right" id="navbar-item">Log out</a>
+                </div>
+            </nav> -->
+            <div class="main-body">
+                <div class="leftContainer">
+                    <h2 class="leftContainer-header">Profile Details</h2>
+                    <div class="profile-card">
+                        <img src="../../assets/images/profile.jpg" class="profile-image" id="profile-image">
+                        <label class="profile-name">Bob Marely</label>
+                    </div>
+                    <label class="profile-details"><span class="profile-title">Email: </span>
+                        bobmarley@gmail.com</label>
+                    <label class="profile-details"><span class="profile-title">Phone: </span> 9633314272</label>
+                    <label class="profile-details"><span class="profile-title">Age: </span> 21</label>
+                    <label class="profile-details"><span class="profile-title">Date Joined: </span> 21/09/2022</label>
+                    <label class="profile-details"><span class="profile-title">Address: </span> MH Hostel,
+                        Thrikkakara</label>
+                    <div class="options">
+                        <a href="#" class="option edit-option">Edit Profile</a>
+                        <a href="#" class="option delete-option">Delete Account</a>
+                    </div>
+                </div>
+                <div class="rightContainer">
+                    <nav class="account-tabs" id="account-tabs">
+                        <a href="#" class="account-tab selected-tab" id="booking-content">Booking History</a>
+                        <a href="#" class="account-tab" id="participated-content">Participated Events</a>
+                        <a href="#" class="account-tab" id="turfs-content">My Turfs</a>
+                        <a href="#" class="account-tab" id="events-content">My Events</a>
+                    </nav>
+                    <div class="contents">
+                        <div class="content" id="booking-content">
+                            <div class="tab-container">
+                                <a id='clear-booking' class="clear-booking" href="#"><i
+                                        class="fa fa-trash-o clear-icon"></i> Clear
+                                    Booking History</a>
+                                <div class="booking-collection">
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Bull Ring</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 800</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Bull Ring</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 800</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Bull Ring</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 800</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Bull Ring</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 800</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Bull Ring</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 800</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content" id="participated-content">
+                            <div class="tab-container">
+                                <a id='clear-booking' class="clear-booking" href="#"><i
+                                        class="fa fa-trash-o clear-icon"></i> Clear
+                                    Participation History</a>
+                                <div class="booking-collection">
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/event.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Football Fest</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 200</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/event.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Football Fest</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 200</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/event.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Football Fest</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 200</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/event.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Football Fest</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 200</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/event.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Football Fest</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 200</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                    <div id="#" class="booking-list">
+                                        <div class="booking-list-row">
+                                            <img src="../../assets/images/event.jpg" class="booking-list-image" />
+                                            <div class="booking-list-column">
+                                                <div class="booking-title-address">
+                                                    <a href="#" class="booking-list-title">Football Fest</a>
+                                                    <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                                </div>
+                                                <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                                <label class="booking-list-time"><span class="from-to-label">From:
+                                                    </span>08:00
+                                                    AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h2 class="booking-price">&#8377; 200</h2>
+                                        </div>
+                                        <i class="fa fa-close close-btn"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="turfs-content">
+                        <p>my turfs content</p>
+                    </div>
+                    <div class="content" id="events-content">
+                        <p>my events content</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
