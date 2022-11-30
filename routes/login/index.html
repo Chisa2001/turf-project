@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Syne Mono' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="../../styles/login.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/util.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/animations.css" />
+    <title>Play Spots | Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="login-card">
+            <div class="login-card__left">
+                <img class="login_logo-image anim-fadeIn" src="../../assets/images/logo.png">
+                <h1 class="header-primary header-primary__white anim-slide-up">Play Spots</h1>
+            </div>
+            <div class="login-card__right">
+                <div class="login-card__right-form centered">
+                    <h2 class="header-secondary header-secondary__black anim-fadeIn">Sign in</h2>
+                    <p class="paragraph-primary margin-bottom-large anim-fadeIn">Sign in if you have an account in here
+                    </p>
+                    <form action="#">
+                        <div class="login-card__right-form-input margin-bottom-large anim-fadeIn">
+                            <label class="login-card__right-form-input__label">Username</label>
+                            <input id="username" type="text" name="username" class="input-textbox" autocomplete="off"
+                                placeholder="Username" required>
+                        </div>
+                        <div class="login-card__right-form-input margin-bottom-large anim-fadeIn">
+                            <label class="login-card__right-form-input__label">Password</label>
+                            <input id="password" type="password" name="password" class="input-textbox"
+                                placeholder="Password" required>
+                        </div>
+                        <div class="login-card__right-form-input__remember-me margin-bottom-large anim-fadeIn">
+                            <input id='remember_me' class="checkbox" type="checkbox" name="remember_me" />
+                            <label class="login-card__right-form-input__label">Remember me</label>
+                        </div>
+                        <center>
+                            <input id="submit_btn" type="submit" class="submit-btn margin-bottom-medium anim-squiggle"
+                                value="Login">
+                        </center>
+                        <center>
+                            <p class="paragraph-primary anim-fadeIn">Do not have an account? <a href="#"
+                                    class="anchor-primary">Sign
+                                    up</a></p>
+                        </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
