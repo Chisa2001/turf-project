@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Syne Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="../../styles/login.css" />
     <link rel="stylesheet" type="text/css" href="../../styles/util.css" />
     <link rel="stylesheet" type="text/css" href="../../styles/animations.css" />
@@ -13,6 +14,9 @@
 
 <body>
     <main>
+        <a href="../../index.html">
+            <i class="fa fa-home home-icon"></i>
+        </a>
         <div class="login-card">
             <div class="login-card__left">
                 <img class="login_logo-image anim-fadeIn" src="../../assets/images/logo.png">
@@ -23,11 +27,11 @@
                     <h2 class="header-secondary header-secondary__black anim-fadeIn">Sign in</h2>
                     <p class="paragraph-primary margin-bottom-large anim-fadeIn">Sign in if you have an account in here
                     </p>
-                    <form action="#">
+                    <form action="#" method="post">
                         <div class="login-card__right-form-input margin-bottom-large anim-fadeIn">
-                            <label class="login-card__right-form-input__label">Username</label>
+                            <label class="login-card__right-form-input__label">Email</label>
                             <input id="username" type="text" name="username" class="input-textbox" autocomplete="off"
-                                placeholder="Username" required>
+                                placeholder="Email" required>
                         </div>
                         <div class="login-card__right-form-input margin-bottom-large anim-fadeIn">
                             <label class="login-card__right-form-input__label">Password</label>
@@ -43,8 +47,8 @@
                                 value="Login">
                         </center>
                         <center>
-                            <p class="paragraph-primary anim-fadeIn">Do not have an account? <a href="#"
-                                    class="anchor-primary">Sign
+                            <p class="paragraph-primary anim-fadeIn">Do not have an account? <a
+                                    href="../signup/index.html" class="anchor-primary">Sign
                                     up</a></p>
                         </center>
                     </form>
