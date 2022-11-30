@@ -404,11 +404,19 @@ body {
     .leftContainer {
         width: 95%;
         flex: 1;
+        justify-content: center;
+        align-items: center;
         margin-bottom: 20px;
         margin-right: 0;
         margin-left: 0;
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .profile-card {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .rightContainer {
@@ -422,6 +430,10 @@ body {
 
     .clear-booking {
         align-self: center;
+    }
+
+    .option {
+        margin: 0 10px;
     }
 }
 
