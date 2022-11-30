@@ -402,14 +402,22 @@ body {
     }
 
     .leftContainer {
-        width: 90%;
+        width: 95%;
         flex: 1;
         margin-bottom: 20px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .rightContainer {
         flex: 1;
         width: 95%;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .clear-booking {
@@ -434,10 +442,6 @@ body {
 
     .rightContainer {
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0;
-        padding-right: 0;
     }
 
     .booking-price {
