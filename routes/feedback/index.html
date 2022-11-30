@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Syne Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/util.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/feedback.css" />
+    <link rel="stylesheet" type="text/css" href="../../styles/animations.css" />
+    <title>Play Spots | Feedback</title>
+</head>
+
+<body>
+    <main class="main-container">
+        <section class="left-container">
+            <div class="text-container">
+                <h2 class="feedback-banner-header">
+                    Feel free to drop us a line and give us your feedback
+                </h2>
+                <p class="feedback-banner-para">We are looking forward to hearing back from you</p>
+            </div>
+            <img src="../../assets/images/feedback-banner.png" class="feedback-banner-image" />
+        </section>
+        <section class="right-container">
+            <h3 class="feedback-body-header">How satisfied are you with our overall service?</h3>
+            <form action="#">
+                <div class="feedback-radio-groups">
+                    <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-1" name="rating" value="worst" />
+                        <label for="feedback-radio-1" class="feedback-radio-label">Worst</label>
+                    </div>
+                    <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-2" name="rating" value="bad" />
+                        <label for="feedback-radio-2" class="feedback-radio-label">Bad</label>
+                    </div>
+                    <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-3" name="rating"
+                            value="average" />
+                        <label for="feedback-radio-3" class="feedback-radio-label">Average</label>
+                    </div>
+                    <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-4" name="rating" value="good" />
+                        <label for="feedback-radio-4" class="feedback-radio-label">Good</label>
+                    </div>
+                    <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-5" name="rating" value="best" />
+                        <label for="feedback-radio-5" class="feedback-radio-label">Best</label>
+                    </div>
+                </div>
+                <div class="feedback-text-area">
+                    <h3 class="feedback-body-header">Please tell us your reasons for giving this score</h3>
+                    <textarea name="feedback-summary" class="feedback-summary" id="feedback-summary" cols="30"
+                        rows="10"></textarea>
+                </div>
+                <div class="feedback-submit">
+                    <input type="submit" id="feedback-submit-btn" class="submit-btn feedback-submit-btn"
+                        value="Send Feedback" />
+                </div>
+            </form>
+        </section>
+    </main>
+</body>

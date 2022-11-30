@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Syne Mono;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+.left-container {
+    height: 100vh;
+    flex: 1;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #FF0A6C, #4A3CDB);
+    -webkit-clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+}
+
+.right-container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    padding: 0 20px;
+    display: flex;
+}
+
+.text-container {
+    width: 90%;
+}
+
+.feedback-banner-header {
+    color: #ffffff;
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.feedback-banner-para {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.feedback-banner-image {
+    align-self: center;
+    width: 50%;
+    margin-right: 20%;
+    filter: opacity(80%);
+}
+
+.feedback-body-header {
+    margin: 40px 0;
+    font-size: 1.4em;
+    background: linear-gradient(to right, #FF0A6C, #4A3CDB);
+    background: -webkit-linear-gradient(to right, #FF0A6C, #4A3CDB);
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feedback-radio-label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.feedback-radio-groups div:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.feedback-summary {
+    resize: none;
+    width: 100%;
+    border: 2px solid #eee;
+    box-shadow: 0 5px 20px rgba(161, 161, 161, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.feedback-submit {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.feedback-submit-btn {
+    padding: 15px 20px;
+    border-radius: 10px;
+}
