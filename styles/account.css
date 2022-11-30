@@ -368,3 +368,89 @@ body {
 .close-btn:hover {
     color: #888888;
 }
+
+@media only screen and (max-width: 1285px) {
+    .option {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1120px) {
+    .account-tab {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .booking-list-date,
+    .booking-list-time,
+    .booking-address {
+        font-size: 0.8em;
+    }
+
+    .booking-price {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .main-body {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .leftContainer {
+        width: 90%;
+        flex: 1;
+        margin-bottom: 20px;
+    }
+
+    .rightContainer {
+        flex: 1;
+        width: 95%;
+    }
+
+    .clear-booking {
+        align-self: center;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .account-tab {
+        font-size: 0.65em;
+    }
+
+    .booking-list-title {
+        font-size: 1em;
+    }
+
+    .booking-list-date,
+    .booking-list-time,
+    .booking-address {
+        font-size: 0.6em;
+    }
+
+    .rightContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .booking-price {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .booking-list-title {
+        font-size: 0.6em;
+    }
+
+    .booking-price {
+        font-size: 0.5em;
+    }
+}
