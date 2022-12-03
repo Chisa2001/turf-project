@@ -1,283 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESPONSIVE DASHBOARD </title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>RESPONSIVE DASHBOARD </title>
 
-    <!-- MATERIAL ICONS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+   <!-- MATERIAL ICONS -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
 
-      <!-- styling -->
-      <link rel="stylesheet" href="dashboardstyle.css">
+   <!-- styling -->
+   <link rel="stylesheet" href="dashboardstyle.css">
+
+   <link rel="stylesheet" type="text/css" href="../styles/feedback.css" />
+
+   <link rel="stylesheet" type="text/css" href="../styles/util.css" />
+   <link rel="stylesheet" type="text/css" href="../styles/account.css" />
+   <link rel="stylesheet" type="text/css" href="../styles/animations.css" />
 </head>
+
 <body>
-  <div class="container">
-    <aside>
-        <div class="top">
+   <div class="container">
+      <aside>
+         <div class="top">
             <div class="logo">
-                <img class="limage" src="dashimages/logo.jpeg" alt="logo">
-                <h2>PLAYSPOT</h2>
+               <img class="limage" src="dashimages/logo.jpeg" alt="logo">
+               <h2>PLAYSPOT</h2>
             </div>
             <div class="close" id="close-btn">
-                <span class="material-icons-sharp">
-                    close
-                    </span>
+               <span class="material-icons-sharp">
+                  close
+               </span>
             </div>
-        </div>
-        <div class="sidebar">
-            <a class="active" href="#">
-                <span class="material-icons-sharp">
-                    grid_view
-                    </span> 
-                   <h3>Dashboard</h3> 
+         </div>
+         <div class="sidebar">
+            <a id="dashboard-d-content" class="active tab-d-btns" href="#">
+               <span id="dashboard-d-content" class="material-icons-sharp">
+                  grid_view
+               </span>
+               <h3 id="dashboard-d-content">Dashboard</h3>
             </a>
-            <a  href="#">
-                <span class="material-icons-sharp">
-                    sports_volleyball
-                    </span>
-                   <h3>Turf</h3> 
+            <a id="turf-d-content" class="tab-d-btns" href="#">
+               <span id="turf-d-content" class="material-icons-sharp">
+                  sports_volleyball
+               </span>
+               <h3 id="turf-d-content">Turf</h3>
             </a>
-            <a href="#">
-                <span class="material-icons-sharp">
-                    edit_calendar
-                    </span>
-                   <h3>Events</h3> 
+            <a id="event-d-content" class="tab-d-btns" href="#">
+               <span id="event-d-content" class="material-icons-sharp">
+                  edit_calendar
+               </span>
+               <h3 id="event-d-content">Events</h3>
             </a>
-            <a href="#">
-                <span class="material-icons-sharp">
-                    account_circle
-                    </span> 
-                   <h3>Account</h3> 
+            <a id="account-d-content" class="tab-d-btns" href="#">
+               <span id="account-d-content" class="material-icons-sharp">
+                  account_circle
+               </span>
+               <h3 id="account-d-content">Account</h3>
             </a>
-            <a href="#">
-                <span class="material-icons-sharp">
-                    forum
-                    </span>
-                   <h3>Feedback</h3> 
+            <a id="feedback-d-content" class="tab-d-btns" href="#">
+               <span id="feedback-d-content" class="material-icons-sharp">
+                  forum
+               </span>
+               <h3 id="feedback-d-content">Feedback</h3>
             </a>
-            <a href="#">
-                <span class="material-icons-sharp">
-                    logout
-                    </span>
-                   <h3>Logout</h3> 
+            <a class="tab-d-btns" href="#">
+               <span class="material-icons-sharp">
+                  logout
+               </span>
+               <h3>Logout</h3>
             </a>
-        </div>
-    </aside>
-    <!-- -----------END OF ASIDE(SIDE BAR)------------- -->
-      <main class="mainsection">
-       
-        <h1>DASHBOARD</h1>
-        <div class="greeting">
-          <img src="dashimages/worldcup2.png" alt="">   
+         </div>
+      </aside>
+      <!-- -----------END OF ASIDE(SIDE BAR)------------- -->
+      <main class="mainsection d-content" id="dashboard-d-content">
+
+         <h1>DASHBOARD</h1>
+         <div class="greeting">
+            <img src="dashimages/worldcup2.png" alt="">
             <div class="mycard">
                <div class="offercontents">
-               <h1>30% OFF</h1>
-                <p>Hey!! Its the World Cup Season . We too are celebrating  this Qatar World Cup with you .<span>BOOK YOUR TURF AT A DISCOUNT OF 30%</span>  Grab your slots and play in your fav team jersey.Donot miss the chance!!!</p>
-               </div>  
-                <div class="limited">
+                  <h1>30% OFF</h1>
+                  <p>Hey!! Its the World Cup Season . We too are celebrating this Qatar World Cup with you .<span>BOOK
+                        YOUR TURF AT A DISCOUNT OF 30%</span> Grab your slots and play in your fav team jersey.Donot
+                     miss the chance!!!</p>
+               </div>
+               <div class="limited">
                   <div class="text">
                      <h2>LIMITED TIME</h2>
-                  </div>  
-                  
-                 </div>
-                 
-               </div>       
-        </div>
-        <div class="introtext">
-        <h2>Welcome Back Customer</h2>
-         <h2>What people think about us</h2>
-    </div>
+                  </div>
 
-     <div class="mainlist">
-             
-           <div  class="cards">
-              <div class="card-image">
-                    
-              </div>
-              <div class="card-text">
-                <span class="date">4 days ago</span>
-                <h2>EXCELLENT</h2>
-                <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+               </div>
 
-              </div>
-              <div class="card-owner">
-                 <div class="owner">
-                    <div class="type">name</div>
-                    <div class="value">RICHARLSON</div>
-                   
-                 </div>
-
-                 <div class="owner border">
-                    <div class="type">Location</div>
-                    <div class="value">KOCHI</div>
-                    
-                 </div>
-
-
-              </div>
-
-           </div>
-
-
-           <div  class="cards">
-            <div class="card-image2">
-                    
             </div>
-            <div class="card-text">
-                <span class="date">4 days ago</span>
-                <h2>EXCELLENT</h2>
-                <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
-
-              </div>
-              <div class="card-owner">
-                 <div class="owner">
-                    <div class="type">name</div>
-                    <div class="value">RICHARLSON</div>
-                   
-                 </div>
-
-                 <div class="owner border">
-                    <div class="type">Location</div>
-                    <div class="value">KOCHI</div>
-                    
-                 </div>
-
-
-              </div>
-
+         </div>
+         <div class="introtext">
+            <h2>Welcome Back Customer</h2>
+            <h2>What people think about us</h2>
          </div>
 
+         <div class="mainlist">
 
-        
-            <div  class="cards">
-            <div class="card-image3">
-                    
+            <div class="cards">
+               <div class="card-image">
+
+               </div>
+               <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>EXCELLENT</h2>
+                  <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+
+               </div>
+               <div class="card-owner">
+                  <div class="owner">
+                     <div class="type">name</div>
+                     <div class="value">RICHARLSON</div>
+
+                  </div>
+
+                  <div class="owner border">
+                     <div class="type">Location</div>
+                     <div class="value">KOCHI</div>
+
+                  </div>
+
+
+               </div>
+
             </div>
-            <div class="card-text">
-                <span class="date">4 days ago</span>
-                <h2>EXCELLENT</h2>
-                <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
-
-              </div>
-              <div class="card-owner">
-                 <div class="owner">
-                    <div class="type">name</div>
-                    <div class="value">RICHARLSON</div>
-                   
-                 </div>
-
-                 <div class="owner border">
-                    <div class="type">Location</div>
-                    <div class="value">KOCHI</div>
-                    
-                 </div>
 
 
-              </div>
+            <div class="cards">
+               <div class="card-image2">
+
+               </div>
+               <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>EXCELLENT</h2>
+                  <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+
+               </div>
+               <div class="card-owner">
+                  <div class="owner">
+                     <div class="type">name</div>
+                     <div class="value">RICHARLSON</div>
+
+                  </div>
+
+                  <div class="owner border">
+                     <div class="type">Location</div>
+                     <div class="value">KOCHI</div>
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
+
+
+            <div class="cards">
+               <div class="card-image3">
+
+               </div>
+               <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>EXCELLENT</h2>
+                  <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+
+               </div>
+               <div class="card-owner">
+                  <div class="owner">
+                     <div class="type">name</div>
+                     <div class="value">RICHARLSON</div>
+
+                  </div>
+
+                  <div class="owner border">
+                     <div class="type">Location</div>
+                     <div class="value">KOCHI</div>
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
+
+
+            <div class="cards">
+               <div class="card-image">
+
+               </div>
+               <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>EXCELLENT</h2>
+                  <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+
+               </div>
+               <div class="card-owner">
+                  <div class="owner">
+                     <div class="type">name</div>
+                     <div class="value">RICHARLSON</div>
+
+                  </div>
+
+                  <div class="owner border">
+                     <div class="type">Location</div>
+                     <div class="value">KOCHI</div>
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
+
+            <div class="cards">
+               <div class="card-image4">
+
+               </div>
+               <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>EXCELLENT</h2>
+                  <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+
+               </div>
+               <div class="card-owner">
+                  <div class="owner">
+                     <div class="type">name</div>
+                     <div class="value">RICHARLSON</div>
+
+                  </div>
+
+                  <div class="owner border">
+                     <div class="type">Location</div>
+                     <div class="value">KOCHI</div>
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
+
+            <div class="cards">
+               <div class="card-image">
+
+               </div>
+               <div class="card-text">
+                  <span class="date">4 days ago</span>
+                  <h2>EXCELLENT</h2>
+                  <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
+
+               </div>
+               <div class="card-owner">
+                  <div class="owner">
+                     <div class="type">name</div>
+                     <div class="value">RICHARLSON</div>
+
+                  </div>
+
+                  <div class="owner border">
+                     <div class="type">Location</div>
+                     <div class="value">KOCHI</div>
+
+                  </div>
+
+
+               </div>
+
+            </div>
+
 
          </div>
-
-
-
-         <div  class="cards">
-            <div class="card-image">
-                    
-            </div>
-            <div class="card-text">
-                <span class="date">4 days ago</span>
-                <h2>EXCELLENT</h2>
-                <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
-
-              </div>
-              <div class="card-owner">
-                 <div class="owner">
-                    <div class="type">name</div>
-                    <div class="value">RICHARLSON</div>
-                   
-                 </div>
-
-                 <div class="owner border">
-                    <div class="type">Location</div>
-                    <div class="value">KOCHI</div>
-                    
-                 </div>
-
-
-              </div>
-
-         </div>
-
-
-         <div  class="cards">
-            <div class="card-image4">
-                    
-            </div>
-            <div class="card-text">
-                <span class="date">4 days ago</span>
-                <h2>EXCELLENT</h2>
-                <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
-
-              </div>
-              <div class="card-owner">
-                 <div class="owner">
-                    <div class="type">name</div>
-                    <div class="value">RICHARLSON</div>
-                   
-                 </div>
-
-                 <div class="owner border">
-                    <div class="type">Location</div>
-                    <div class="value">KOCHI</div>
-                    
-                 </div>
-
-
-              </div>
-
-         </div>
-
-
-         <div  class="cards">
-            <div class="card-image">
-                    
-            </div>
-            <div class="card-text">
-                <span class="date">4 days ago</span>
-                <h2>EXCELLENT</h2>
-                <p>With playspot I can book turf in no time.Really enjoying this webapp</p>
-
-              </div>
-              <div class="card-owner">
-                 <div class="owner">
-                    <div class="type">name</div>
-                    <div class="value">RICHARLSON</div>
-                   
-                 </div>
-
-                 <div class="owner border">
-                    <div class="type">Location</div>
-                    <div class="value">KOCHI</div>
-                    
-                 </div>
-
-
-              </div>
-
-         </div>
-         
-         
-     </div>
 
       </main>
-  </div> 
-  
-  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-  <script src="dashboard.js"></script>
+      <main id="turf-d-content" class="turf-d-content d-content">
+         <h1 style="color: black;">Turf content goes here</h1>
+      </main>
+      <main id="event-d-content" class="event-d-content d-content">
+         <h1 style="color: black;">Event content goes here</h1>
+      </main>
+      <main id="account-d-content" class="account-d-content d-content">
+         <section class="central-container">
+            <div class="main-body">
+               <div class="leftContainer">
+                  <h2 class="leftContainer-header">Profile Details</h2>
+                  <div class="profile-card">
+                     <img src="../assets/images/profile.jpg" class="profile-image" id="profile-image">
+                     <label class="profile-name">Bob Marely</label>
+                  </div>
+                  <label class="profile-details"><span class="profile-title">Email: </span>
+                     bobmarley@gmail.com</label>
+                  <label class="profile-details"><span class="profile-title">Phone: </span> 9633314272</label>
+                  <label class="profile-details"><span class="profile-title">Age: </span> 21</label>
+                  <label class="profile-details"><span class="profile-title">Date Joined: </span> 21/09/2022</label>
+                  <label class="profile-details"><span class="profile-title">Address: </span> MH Hostel,
+                     Thrikkakara</label>
+                  <div class="options">
+                     <a href="#" class="option edit-option">Edit Profile</a>
+                     <a href="#" class="option delete-option">Delete Account</a>
+                  </div>
+               </div>
+               <div class="rightContainer">
+                  <nav class="account-tabs" id="account-tabs">
+                     <a href="#" class="account-tab selected-tab" id="booking-content">Booking History</a>
+                     <a href="#" class="account-tab" id="participated-content">Participated Events</a>
+                     <a href="#" class="account-tab" id="turfs-content">My Turfs</a>
+                     <a href="#" class="account-tab" id="events-content">My Events</a>
+                  </nav>
+                  <div class="contents">
+                     <div class="content" id="booking-content">
+                        <div class="tab-container">
+                           <a id='clear-booking' class="clear-booking" href="#"><i class="fa fa-trash-o clear-icon"></i>
+                              Clear
+                              Booking History</a>
+                           <div class="booking-collection">
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Bull Ring</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 800</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Bull Ring</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 800</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Bull Ring</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 800</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Bull Ring</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 800</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/turf_demo.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Bull Ring</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 800</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="content" id="participated-content">
+                        <div class="tab-container">
+                           <a id='clear-booking' class="clear-booking" href="#"><i class="fa fa-trash-o clear-icon"></i>
+                              Clear
+                              Participation History</a>
+                           <div class="booking-collection">
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/event.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Football Fest</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 200</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/event.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Football Fest</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 200</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/event.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Football Fest</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 200</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/event.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Football Fest</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 200</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/event.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Football Fest</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 200</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                              <div id="#" class="booking-list">
+                                 <div class="booking-list-row">
+                                    <img src="../assets/images/event.jpg" class="booking-list-image" />
+                                    <div class="booking-list-column">
+                                       <div class="booking-title-address">
+                                          <a href="#" class="booking-list-title">Football Fest</a>
+                                          <label class="booking-address">, Pipeline Road, Thrikkakara</label>
+                                       </div>
+                                       <label class="booking-list-date">29 Sep 2022 - 5 Oct 2022</label>
+                                       <label class="booking-list-time"><span class="from-to-label">From:
+                                          </span>08:00
+                                          AM <span class="from-to-label">To: </span>09:00 AM</label>
+                                    </div>
+                                 </div>
+                                 <div>
+                                    <h2 class="booking-price">&#8377; 200</h2>
+                                 </div>
+                                 <i class="fa fa-close close-btn"></i>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="content" id="turfs-content">
+                     <p>my turfs content</p>
+                  </div>
+                  <div class="content" id="events-content">
+                     <p>my events content</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <main id="feedback-d-content" class="feedback-d-content d-content">
+         <div class="main-container">
+            <section class="left-f-container">
+               <div class="text-container">
+                  <h2 class="feedback-banner-header">
+                     Feel free to drop us a line and give us your feedback
+                  </h2>
+                  <p class="feedback-banner-para">We are looking forward to hearing back from you</p>
+               </div>
+               <img src="../assets/images/feedback-banner.png" class="feedback-banner-image" />
+            </section>
+            <section class="right-f-container">
+               <h3 class="feedback-body-header">How satisfied are you with our overall service?</h3>
+               <form action="#">
+                  <div class="feedback-radio-groups">
+                     <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-1" name="rating" value="worst" />
+                        <label for="feedback-radio-1" class="feedback-radio-label">Worst</label>
+                     </div>
+                     <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-2" name="rating" value="bad" />
+                        <label for="feedback-radio-2" class="feedback-radio-label">Bad</label>
+                     </div>
+                     <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-3" name="rating"
+                           value="average" />
+                        <label for="feedback-radio-3" class="feedback-radio-label">Average</label>
+                     </div>
+                     <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-4" name="rating" value="good" />
+                        <label for="feedback-radio-4" class="feedback-radio-label">Good</label>
+                     </div>
+                     <div class="feedback-radio-group">
+                        <input type="radio" class="feedback-radio" id="feedback-radio-5" name="rating" value="best" />
+                        <label for="feedback-radio-5" class="feedback-radio-label">Best</label>
+                     </div>
+                  </div>
+                  <div class="feedback-text-area">
+                     <h3 class="feedback-body-header">Please tell us your reasons for giving this score</h3>
+                     <textarea name="feedback-summary" class="feedback-summary" id="feedback-summary" cols="30"
+                        rows="10"></textarea>
+                  </div>
+                  <div class="feedback-submit">
+                     <input type="submit" id="feedback-submit-btn" class="submit-btn feedback-submit-btn"
+                        value="Send Feedback" />
+                  </div>
+               </form>
+            </section>
+         </div>
+      </main>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"></script>
+   <script src="dashboard.js"></script>
+   <script src="../scripts/account.js"></script>
+
 </body>
+
 </html>

@@ -7,11 +7,12 @@
 .main-container {
     display: flex;
     flex-direction: row;
-    justify-content: stretch;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
-.left-container {
+.left-f-container {
     height: 100vh;
     flex: 1;
     padding: 0 20px;
@@ -23,13 +24,13 @@
     clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
 }
 
-.right-container {
+.right-f-container {
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     height: 100vh;
-    padding: 0 20px;
+    padding: 0 10px;
     display: flex;
 }
 
@@ -66,6 +67,11 @@
     -moz-background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.feedback-radio {
+    appearance: radio;
+    -webkit-appearance: radio;
 }
 
 .feedback-radio-label {
